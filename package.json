@@ -1,0 +1,40 @@
+{
+  "name": "crud-example",
+  "version": "1.0.0",
+  "description": "An example project for building RESTful interfaces with Nuxt.js",
+  "author": "Todd Baur <todd@toadkicker.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.5.1",
+    "@nuxtjs/axios": "^5.3.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "lodash.assign": "^4.2.0",
+    "lodash.merge": "^4.6.1",
+    "nuxt": "^1.0.0",
+    "nuxt-i18n": "^3.3.0",
+    "vee-validate": "^2.1.0-beta.6",
+    "velocity-animate": "^1.5.1",
+    "vue-moment": "^4.0.0",
+    "vue-notification": "^1.3.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "json-server": "^0.14.0",
+    "jsonwebtoken": "^8.1.0",
+    "node-sass": "^4.9.0",
+    "postcss-preset-env": "^5.1.0",
+    "sass-loader": "^7.0.3"
+  }
+}

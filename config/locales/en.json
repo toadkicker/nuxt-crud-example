@@ -1,0 +1,53 @@
+{
+  "actions": "Actions",
+  "admin": "Admin",
+  "yes": "Yes",
+  "no": "No",
+  "edit": "Edit",
+  "email": "Email",
+  "remember_me": "Remember Me",
+  "password": "Password",
+  "password_confirm": "Confirm Password",
+  "login": "Log In",
+  "forgot_password": "Forgot Password?",
+  "remove": "Remove",
+  "destroy_confirm_title": "Please Confirm",
+  "destroy_confirm": "Are you sure you want to remove this?",
+  "logout": "Log Out",
+  "back": "Back",
+  "save": "Save",
+  "update": "Update",
+  "updated_at": "Last Updated",
+  "forms": {
+    "errors": {
+      "required": "Please fill this out.",
+      "standard": "A server error occurred.",
+      "invalid": "Please correct errors in the form."
+    }
+  },
+  "cars": {
+    "singular": "Car",
+    "plural": "Cars",
+    "new": "New Car",
+    "edit": "Edit Car",
+    "make": "Manufacturer",
+    "model": "Model",
+    "year": "Year",
+    "color": "Color",
+    "make_placeholder": "Manufacturer of vehicle"
+  },
+  "users": {
+    "sessions": {
+      "new": {
+        "title": "Login"
+      },
+      "invalid": "Unable to login with the email and password provided.",
+      "valid": "Welcome Back!"
+    },
+    "registrations": {
+      "new": {
+        "title": "Register"
+      }
+    }
+  }
+}
