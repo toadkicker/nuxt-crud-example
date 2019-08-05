@@ -6,21 +6,21 @@
 
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ yarn install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ yarn run dev
 
 # start a fake json server using https://github.com/typicode/json-server
 $ npm install -g json-server
 $ $ node fake-server.js
 
 # build for production and launch server
-$ npm run build
-$ npm start
+$ yarn run build
+$ yarn run start
 
 # generate static project
-$ npm run generate
+$ yarn run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
