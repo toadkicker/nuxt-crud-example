@@ -29,29 +29,18 @@ module.exports = {
     ** Run ESLint on save
     */
     extend (config, { isDev, isClient }) {
-      const vueLoader = config.module.rules.find((rule) => rule.loader === 'vue-loader')
-      vueLoader.options.transformToRequire = {
-        'img': 'src',
-        'image': 'xlink:href',
-        'b-img': 'src',
-        'b-img-lazy': ['src', 'blank-src'],
-        'b-card': 'img-src',
-        'b-card-img': 'img-src',
-        'b-carousel-slide': 'img-src',
-        'b-embed': 'src'
-      };
       if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
+        // config.module.rules.push({
+        //   enforce: 'pre',
+        //   test: /\.(js|vue)$/,
+        //   loader: 'eslint-loader',
+        //   exclude: /(node_modules)/
+        // })
       }
     }
   },
   modules: [
-    ['bootstrap-vue/nuxt', {css: false}],
+    ['bootstrap-vue/nuxt'],
     ['nuxt-i18n', i18n],
     ['@nuxtjs/axios'],
     ['@nuxtjs/auth']
@@ -64,6 +53,10 @@ module.exports = {
   ],
   router: {
     middleware: ['auth']
+  },
+  bootstrapVue: {
+    css: false//, // Or `css: false`
+    // bootstrapVueCSS: false // Or `bvCSS: false`
   },
   auth: {
     strategies: {
