@@ -17,7 +17,7 @@
     "@nuxtjs/axios": "^5.3.1",
     "bootstrap-vue": "^2.0.0-rc.11",
     "lodash.assign": "^4.2.0",
-    "lodash.merge": "^4.6.1",
+    "lodash.merge": "^4.6.2",
     "nuxt": "^1.0.0",
     "nuxt-i18n": "^3.3.0",
     "vee-validate": "^2.1.0-beta.6",
