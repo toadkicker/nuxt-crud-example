@@ -14,7 +14,7 @@ export const mutations = {
     merge(state.list, value)
   },
   remove(state, {car}) {
-    state.list.filter(c => car.id !== c.id)
+    state.list = state.list.filter(c => car.id !== c.id)
   },
   mergeCars(state, form) {
     assign(state.car, form)
